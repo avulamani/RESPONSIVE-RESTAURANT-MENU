@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner</title>
+    <style>
+        body {
+            background-color: rgb(255, 192, 247);
+        }
+        h1{
+            color:rgb(43, 226, 73);
+            text-align:center;
+        }
+        #image-row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        #image-container {
+            margin: 10px;
+        }
+        b{
+            border:2px solid black;
+            color:rgb(255, 64, 47);
+            text-align:center;
+        }
+        b:hover{
+            color:rgb(244, 242, 242);
+            background-color:rgb(255, 0, 0);
+        }
+        
+
+        /* Styling the images */
+        #image-container img {
+            width: 200px;
+            height:200px;
+            transition: transform 1.0s ease;
+        }
+
+        /* Animating on hover */
+        #image-container:hover img {
+            transform: scale(1.1); /* Zoom the image */
+        }
+    </style>
+</head>
+<body>
+    <h1>Dinner</h1>
+    <!--first row of images-->
+    <div id="image-row"> 
+        <div id="image-container">
+            <img src="img folder/Rotis.jpg" heigth="200px" width="200px"><br><br><b>Roti:15</b><br>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Butter-Naan.jpg" heigth="200px" width="200px"><br><br><b>Butter naan:30</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/rumali roti.jpg" heigth="200px" width="200px"><br><br><b>Rumali roti:18</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/chapathi 1.jpg" heigth="200px" width="200px"><br><br><b>Chapathi:25</b>
+        </div>
+        
+    </div>
+    <div id="image-row">
+        <div id="image-container">
+            <img src="img folder/palak.jpg" heigth="200px" width="200px"><br><br><b>Palak:110</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/paneer-butter-masala.webp" heigth="200px" width="200px"><br><br><b>Panner Butter Masala:150</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/mix veg.jpg" heigth="180px" width="180px"><br><br><b>All mix veg:120</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/palak panner.jpg"heigth="200px" width="200px" ><br><br><b>Panner palak:140 </b>
+        </div>
+    </div>
+    <div id="image-row">
+        <div id="image-container">
+            <img src="img folder/kaju curry.jpg" heigth="280px" width="210px"><br><br><b>Kaju curry:190</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Chicken-Curry.jpg" heigth="180px" width="180px"><br><br><b>Chicken curry:150</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Methi-Chaman.jpg" heigth="200px" width="200px"><br><br><b>Methi chaman:140</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Kaju-Paneer-Masala.jpg" heigth="200px" width="200px"><br><br><b>Kaju Panner:210</b> 
+        </div>
+    </div>
+</body>
+</html>

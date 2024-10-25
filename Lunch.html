@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch</title>
+    <style>
+        body{
+            background-color:rgb(129, 129, 230);
+        }
+        h1{
+            color:rgb(226, 43, 43);
+            text-align:center;
+        }
+        #image-row{
+            justify-content:center;
+            margin-bottom:20px;
+            display:flex;
+            margin-top:20px;
+        }
+        #image-container{
+            margin:10px;
+        }
+        b{
+            border:2px solid black;
+            color:black;
+            text-align:center;
+        }
+        b:hover{
+            color:rgb(15, 235, 239);
+            background-color:rgb(255, 153, 0);
+        }
+        
+        /* Styling the images */
+        #image-container img {
+            width: 200px;
+            height:200px;
+            transition: transform 1.0s ease;
+        }
+
+        /* Animating on hover */
+        #image-container:hover img {
+            transform: scale(1.1); /* Zoom the image */
+        }
+    </style>
+</head>
+<body>
+    <h1>Lunch</h1>
+    <!--first row of images-->
+    <div id="image-row"> 
+        <div id="image-container">
+            <img src="img folder/thali.jpg" heigth="200px" width="200px"><br><br><b>Thali:230</b><br>
+        </div>
+        <div id="image-container">
+            <img src="img folder/manchuria rice.avif" heigth="200px" width="200px"><br><br><b>Manchurian rice:140</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Roti with Aloo curry.jpg" heigth="200px" width="200px"><br><br><b>Roti wiht AlooCurry:120</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/panner biriyani.jpg" heigth="200px" width="200px"><br><br><b>Panner biriyani:190</b>
+        </div>
+    </div>
+    <div id="image-row">
+        <div id="image-container">
+            <img src="img folder/Mushroom Biriyani.webp" heigth="200px" width="200px"><br><br><b>Mushroom Biriyani:180</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Roti with chicken currry.jpg" heigth="200px" width="200px"><br><br><b>Roti with chicken currry:200</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Vegetable-Fried-Rice.jpg" heigth="180px" width="180px"><br><br><b>Veg Fried Rice:110</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Chicken-Grilled-sandwich.jpg"heigth="200px" width="200px" ><br><br><b>Chicken-Grilled-sandwich:110</b>
+        </div>
+    </div>
+    <div id="image-row">
+        <div id="image-container">
+            <img src="img folder/chicken-biryani.jpg" heigth="280px" width="210px"><br><br><b>chicken-biryani:250</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/paneer-roti.webp" heigth="180px" width="180px"><br><br><b>Roti with panner curry:180</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/Hyderabadi-Mutton-Biryani.webp" heigth="200px" width="200px"><br><br><b>Hyderabadi-Mutton-Biryani:350</b>
+        </div>
+        <div id="image-container">
+            <img src="img folder/roti-Sabzi.jpg" heigth="200px" width="200px"><br><br><b>Roti-sabzi:110</b> 
+        </div>
+    </div>
+</body>
+</html>
